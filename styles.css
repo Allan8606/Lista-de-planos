@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #111;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul,
+h1,
+h2 {
+    color: #f7f7f7;
+}
+
+img {
+    width: 150px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    gap: 60px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #d1ae6c;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 5px 15px;
+}
+
+.item-bronze,
+.item-prata,
+.item-ouro {
+    max-width: 250px;
+    border: 1px solid #f7f7f7;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.item-bronze h2 {
+    color: burlywood;
+}
+.item-bronze span {
+    border-bottom: 1px solid burlywood;
+}
+
+.item-prata h2 {
+    color: silver;
+}
+.item-prata span {
+    border-bottom: 1px solid silver;
+}
+
+.item-ouro h2 {
+    color: goldenrod;
+}
+.item-ouro span {
+    border-bottom: 1px solid goldenrod;
+}
+
+li {
+    margin-bottom: 8px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    color: #f7f7f7;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: 700;
+}
