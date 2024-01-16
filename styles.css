@@ -48,10 +48,14 @@ h1 {
 .item-bronze,
 .item-prata,
 .item-ouro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     max-width: 250px;
-    border: 1px solid #f7f7f7;
+    border: 1px solid white;
     padding: 5px 30px;
     border-radius: 5px;
+    min-height: 20rem;
 }
 
 h2 {
@@ -95,4 +99,41 @@ span {
     margin-bottom: 10px;
     padding: 5px;
     font-weight: 700;
+}
+
+.item-ouro:hover {
+    border: 1px solid goldenrod;
+}
+.item-prata:hover {
+    border: 1px solid silver;
+}
+.item-bronze:hover {
+    border: 1px solid burlywood;
+}
+
+.button-bronze,
+.button-prata,
+.button-ouro {
+    text-align: center;
+    background-color: #f7f7f7;
+    text-decoration: none;
+    color: #111;
+    border-radius: 4px;
+    justify-self: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 30px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.button-bronze:hover {
+    color: burlywood;
+}
+.button-prata:hover {
+    color: silver;
+}
+.button-ouro:hover {
+    color: goldenrod;
 }
